@@ -37,9 +37,9 @@ const Services = () => {
       description: 'نقدم خدمة ضيافة القهوة السعودية الأصيلة في الفعاليات الداخلية والخارجية والمناسبات الخاصة، مع الحفاظ على التراث السعودي العريق في تحضير وتقديم القهوة.',
       features: ['فعاليات داخلية', 'فعاليات خارجية', 'مناسبات خاصة'],
       images: [
-        '/assets/coffee-service1.png',
-        '/assets/coffee-service2.jpg',
-        '/assets/thara12.jpg',
+        'https://zozz909.github.io/thara2/assets/coffee-service1.png',
+        'https://zozz909.github.io/thara2/assets/coffee-service2.jpg',
+        'https://zozz909.github.io/thara2/assets/thara12.jpg',
       ],
       whatsappText: 'أريد الاستفسار عن خدمة ضيافة القهوة السعودية'
     },
@@ -49,10 +49,10 @@ const Services = () => {
       description: 'نقدم الأكل السعودي الأصيل ونعرض الثقافة السعودية في المعارض الداخلية والخارجية، مع خدمات VIP للمشاركين المميزين.',
       features: ['معارض داخلية', 'معارض خارجية', 'خدمات VIP'],
       images: [
-        '/assets/eatsa1.jpg',
-        '/assets/eatsa2.jpg',
-        '/assets/eatsa3.jpg',
-        '/assets/eatsa5.jpg'
+        'https://zozz909.github.io/thara2/assets/eatsa1.jpg',
+        'https://zozz909.github.io/thara2/assets/eatsa2.jpg',
+        'https://zozz909.github.io/thara2/assets/eatsa3.jpg',
+        'https://zozz909.github.io/thara2/assets/eatsa5.jpg'
       ],
       whatsappText: 'أريد الاستفسار عن خدمة ضيافة الأكل السعودي والثقافة'
     },
@@ -62,8 +62,8 @@ const Services = () => {
       description: 'نبتكر مشروبات وموكتيلات فريدة بنكهات سعودية أصيلة، تجمع بين التراث والحداثة لتقديم تجربة مذاق لا تُنسى لضيوفكم.',
       features: ['نكهات أصيلة', 'موكتيلات مبتكرة', 'تجربة فريدة'],
       images: [
-        '/assets/dringsa1.jpg',
-        '/assets/dringsa2.jpg',
+        'https://zozz909.github.io/thara2/assets/dringsa1.jpg',
+        'https://zozz909.github.io/thara2/assets/dringsa2.jpg',
       
       ],
       whatsappText: 'أريد الاستفسار عن خدمة المشروبات والموكتيلات بالنكهات السعودية'
@@ -74,7 +74,7 @@ const Services = () => {
       description: 'نوفر خدمات ضيافة متخصصة للشركات والهيئات والوزارات، مع التركيز على الاحترافية والتميز في تقديم الخدمة لتعكس صورة مؤسستكم المتميزة.',
       features: ['شركات', 'هيئات حكومية', 'وزارات'],
       images: [
-        '/assets/eatsa5.jpg',
+        'https://zozz909.github.io/thara2/assets/eatsa5.jpg',
        
       ],
       whatsappText: 'أريد الاستفسار عن خدمة ضيافة الشركات والهيئات'
@@ -108,7 +108,7 @@ const Services = () => {
                     <div className="service-slideshow" data-service="workshop">
                       <div className="slide active">
                         <img
-                          src="/assets/coofesa1.jpg"
+                          src="https://zozz909.github.io/thara2/assets/coofesa1.jpg"
                           alt="ضيافة ورش العمل - كوفي بريك"
                           className="img-fluid"
                           loading="lazy"
@@ -120,7 +120,7 @@ const Services = () => {
                       </div>
                       <div className="slide">
                         <img
-                          src="/assets/coofebric2.jpg"
+                          src="https://zozz909.github.io/thara2/assets/coofebric2.jpg"
                           alt="ورشة عمل تفاعلية"
                           className="img-fluid"
                           loading="lazy"
@@ -132,7 +132,7 @@ const Services = () => {
                       </div>
                       <div className="slide">
                         <img
-                          src="/assets/coofesa3.jpg"
+                          src="https://zozz909.github.io/thara2/assets/coofesa3.jpg"
                           alt="استراحة كوفي بريك"
                           className="img-fluid"
                           loading="lazy"
@@ -144,7 +144,7 @@ const Services = () => {
                       </div>
                       <div className="slide">
                         <img
-                          src="/assets/coofebric2.jpg"
+                          src="https://zozz909.github.io/thara2/assets/coofebric2.jpg"
                           alt="دورة تدريبية"
                           className="img-fluid"
                           loading="lazy"

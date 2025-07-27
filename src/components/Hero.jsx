@@ -61,7 +61,7 @@ const Hero = () => {
     <section id="home" className="hero-section">
       {/* Local Video - Auto Play with Sound */}
       <HeroVideo
-        videoSrc="/assets/video.mp4"
+        videoSrc="https://zozz909.github.io/thara2/assets/video.mp4"
         fallbackImage="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
         enableSound={true}
       />
