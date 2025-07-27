@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مؤسسة ثرى للضيافة</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #F5DEB3 0%, #DEB887 50%, #D2B48C 100%);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            direction: rtl;
+        }
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin: 2rem;
+        }
+        h1 {
+            color: #8B4513;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            color: #A0522D;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        .btn {
+            background: linear-gradient(135deg, #DEB887 0%, #D2B48C 50%, #CD853F 100%);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(210, 180, 140, 0.3);
+            margin: 0.5rem;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(210, 180, 140, 0.4);
+        }
+        .status {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #e8f5e8;
+            border: 1px solid #4caf50;
+            border-radius: 10px;
+            color: #2e7d32;
+        }
+        .error {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #ffebee;
+            border: 1px solid #f44336;
+            border-radius: 10px;
+            color: #c62828;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ مؤسسة ثرى للضيافة</h1>
+        <p>مرحباً بكم في موقع مؤسسة ثرى للضيافة</p>
+        <p>نرتقي بتجربة الضيافة السعودية إلى مستوى جديد من الاحتراف والتميّز</p>
+        
+        <div class="status">
+            ✅ الموقع يعمل بشكل صحيح على GitHub Pages
+        </div>
+        
+        <div class="error">
+            ⚠️ إذا كنت ترى هذه الصفحة، فهذا يعني أن GitHub Pages يعمل!
+        </div>
+        
+        <a href="https://zozz909.github.io/thara2/dist/" class="btn">الموقع الكامل (مجلد dist)</a>
+        <br>
+        <a href="https://zozz909.github.io/thara2/docs/" class="btn">الموقع البديل (مجلد docs)</a>
+        
+        <p style="margin-top: 2rem; font-size: 1rem; color: #666;">
+            تاريخ التحديث: <span id="date"></span>
+        </p>
+        
+        <script>
+            document.getElementById('date').textContent = new Date().toLocaleString('ar-SA');
+        </script>
+    </div>
+</body>
+</html>
